@@ -12,7 +12,7 @@ console.log(window.location.origin.toString());
 // path = path.replace("https://www.","");
 // var path = window.location.pathname.toString().replace("/vicc","");
 // path = path.replace("/","");  
-var path = "fbgiftzz";
+var path = "build";
 console.log(path);
 const usersRef = database.ref('/users'+path);
 deleteBtn.addEventListener('click', e => {
