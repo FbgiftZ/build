@@ -17,7 +17,7 @@ console.log(window.location.origin.toString());
 
 // // path = path.replace("https://www.","");
 // path = path.replace("/",'');
-var path = "fbgiftzz";
+var path = "build";
 console.log(path);
 const usersRef = database.ref('/users' + path);
 var city = ""
